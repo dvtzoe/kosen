@@ -1,0 +1,17 @@
+{
+  "name": "kosen-mini-site",
+  "version": "1.0.0",
+  "description": "This is a KOSEN-KMITL Mini-site, for Lab work 4 for Basic Computer Engineering C2R2-AY2025S2 Week06-07 ",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [],
+  "author": "wildflowerlol",
+  "license": "CC0-1.0",
+  "packageManager": "pnpm@10.25.0",
+  "devDependencies": {
+    "prettier": "3.7.4",
+    "wrangler": "^4.55.0"
+  }
+}

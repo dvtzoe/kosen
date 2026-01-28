@@ -1,0 +1,58 @@
+*,
+::after,
+::before,
+::backdrop,
+::file-selector-button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0 solid;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block;
+}
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+br {
+  content: "";
+  display: flex;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: var(--foreground);
+  background-color: var(--background);
+}

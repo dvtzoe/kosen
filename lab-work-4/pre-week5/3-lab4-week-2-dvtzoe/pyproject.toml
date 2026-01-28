@@ -1,0 +1,20 @@
+[project]
+name = "3-lab4-week-2-dvtzoe"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "lab3-functions",
+    "lab4-challenge-max",
+    "lab4-challenge-max3",
+    "lab4-conditions",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.4",
+]

@@ -1,0 +1,17 @@
+.text-kosen-blue {
+  color: var(--kosen-blue);
+}
+
+.text-kosen-orange {
+  color: var(--kosen-orange);
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.separator {
+  display: block;
+  border-bottom: 2px solid var(--border);
+  margin: 16px 0;
+}

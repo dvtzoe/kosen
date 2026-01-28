@@ -1,0 +1,173 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100vh;
+}
+
+#hero h1 {
+  font-size: 8rem;
+  font-weight: bold;
+  margin-top: 15rem;
+  filter: drop-shadow(0 0 4rem var(--foreground));
+}
+
+#hero h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 16rem;
+  background-color: var(--card);
+}
+
+#about h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+}
+
+#courses h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+#courses h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.courses-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+  margin: 0 16rem;
+}
+
+.course-item {
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  max-width: 36rem;
+  background-color: var(--card);
+  transition:
+    background-color 0.1s ease,
+    box-shadow 0.1s ease;
+}
+
+.course-item:hover {
+  background-color: var(--background);
+  box-shadow: 0 0 1rem var(--foreground);
+}
+
+.course-item a {
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: color 0.1s ease;
+}
+
+.course-item a:hover {
+  color: var(--muted-foreground);
+}
+
+/* Responsive design */
+@media (max-width: 1200px) {
+  #about {
+    padding: 4rem 8rem;
+  }
+
+  .courses-list {
+    margin: 0 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 4rem;
+    margin-top: 10rem;
+  }
+
+  #hero h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  #about {
+    padding: 2rem 2rem;
+    font-size: 0.9375rem;
+  }
+
+  #courses {
+    padding: 2rem 1rem;
+  }
+
+  #courses h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #courses h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .courses-list {
+    flex-direction: column;
+    margin: 0 1rem;
+    gap: 2rem;
+  }
+
+  .course-item {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero h1 {
+    font-size: 3rem;
+    margin-top: 8rem;
+  }
+
+  #hero h2 {
+    font-size: 1.25rem;
+  }
+
+  #about {
+    padding: 1.5rem 1rem;
+    font-size: 0.875rem;
+  }
+
+  #courses h2 {
+    font-size: 1.75rem;
+  }
+
+  #courses h3 {
+    font-size: 1.25rem;
+  }
+
+  .course-item {
+    padding: 1.5rem;
+  }
+
+  .course-item a {
+    font-size: 1.25rem;
+  }
+}

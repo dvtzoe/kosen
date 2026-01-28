@@ -1,0 +1,182 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--kosen-blue);
+}
+
+main h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  color: var(--kosen-orange);
+  border-bottom: 3px solid var(--border);
+  padding-bottom: 0.5rem;
+}
+
+main h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+main h4 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+main h4 a {
+  color: var(--kosen-blue);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+main h4 a:hover {
+  color: var(--kosen-orange);
+  text-decoration: underline;
+}
+
+main p {
+  font-size: 1.125rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  color: var(--foreground);
+}
+
+main b {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary);
+}
+
+main img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  border-radius: var(--radius);
+  border: 2px solid var(--border);
+  margin: 1rem auto;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+main img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+main br {
+  margin: 1rem 0;
+}
+
+main > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 2rem;
+  background-color: var(--card);
+  color: var(--kosen-blue);
+  text-decoration: none;
+  border-radius: var(--radius);
+  border: 2px solid var(--kosen-blue);
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+main > a:hover {
+  background-color: var(--kosen-blue);
+  color: var(--primary-foreground);
+  transform: translateX(-4px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  main {
+    padding: 1rem;
+  }
+
+  main h1 {
+    font-size: 2rem;
+  }
+
+  main h2 {
+    font-size: 1.75rem;
+    margin-top: 2rem;
+  }
+
+  main h3 {
+    font-size: 1.5rem;
+  }
+
+  main h4 {
+    font-size: 1.125rem;
+  }
+
+  main p {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  main b {
+    font-size: 1.125rem;
+  }
+
+  main img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0.75rem;
+  }
+
+  main h1 {
+    font-size: 1.75rem;
+  }
+
+  main h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  main h3 {
+    font-size: 1.25rem;
+  }
+
+  main h4 {
+    font-size: 1rem;
+  }
+
+  main p {
+    font-size: 0.9375rem;
+  }
+
+  main b {
+    font-size: 1rem;
+  }
+
+  main > a {
+    padding: 0.625rem 1.25rem;
+    font-size: 0.9375rem;
+  }
+}

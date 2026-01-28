@@ -1,0 +1,18 @@
+[submodule "programming-4"]
+	path = programming-4
+	url = https://github.com/dvtzoe/programming-4
+[submodule "lab-work-4/week6/kosen-mini-site"]
+	path = lab-work-4/week6/kosen-mini-site
+	url = https://github.com/wildflowerlol/kosen-mini-site.git
+[submodule "lab-work-4/pre-week5/2-starter-repo-dvtzoe"]
+	path = lab-work-4/pre-week5/2-starter-repo-dvtzoe
+	url = https://github.com/KOSENKMITL/2-starter-repo-dvtzoe
+[submodule "lab-work-4/pre-week5/c2r1-dvtzoe"]
+	path = lab-work-4/pre-week5/c2r1-dvtzoe
+	url = https://github.com/KOSENKMITL/c2r1-dvtzoe
+[submodule "lab-work-4/pre-week5/3-lab4-week-2-dvtzoe"]
+	path = lab-work-4/pre-week5/3-lab4-week-2-dvtzoe
+	url = https://github.com/KOSENKMITL/3-lab4-week-2-dvtzoe
+[submodule "lab-work-4/pre-week5/lab4-week-3-github-collaboration-dvtzoe"]
+	path = lab-work-4/pre-week5/lab4-week-3-github-collaboration-dvtzoe
+	url = https://github.com/KOSENKMITL/lab4-week-3-github-collaboration-dvtzoe
