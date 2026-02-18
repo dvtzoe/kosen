@@ -1,0 +1,6 @@
+S	R	Q	Qbar
+0	0	x	x
+0	1	1	0
+1	0	0	1
+1	1	0	1
+./week16/tb/sr_latch_nand_tb.sv:27: $finish called at 40000 (1ps)

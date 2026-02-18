@@ -17,4 +17,4 @@ a  b  | out
 11 01 | 10
 11 10 | 01
 11 11 | 00
-./week14/tb/nand_gate_tb.sv:26: $finish called at 160 (1s)
+./week15/tb/nand_gate_tb.sv:26: $finish called at 160 (1s)
