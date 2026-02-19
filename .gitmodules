@@ -16,3 +16,6 @@
 [submodule "lab-work-4/pre-week5/lab4-week-3-github-collaboration-dvtzoe"]
 	path = lab-work-4/pre-week5/lab4-week-3-github-collaboration-dvtzoe
 	url = https://github.com/KOSENKMITL/lab4-week-3-github-collaboration-dvtzoe
+[submodule "lab-work-4/touch-me"]
+	path = lab-work-4/touch-me
+	url = https://github.com/dvtzoe/touch-me.git
