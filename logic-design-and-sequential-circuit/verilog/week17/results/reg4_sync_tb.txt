@@ -1,0 +1,7 @@
+VCD info: dumpfile out/week17/reg4_sync.vcd opened for output.
+0	1	0	0110	xxxx
+5	1	0	0110	0000
+10	0	1	1010	0000
+15	0	1	1010	1010
+20	0	0	1100	1010
+./week17/tb/reg4_sync_tb.sv:42: $finish called at 30 (1s)
