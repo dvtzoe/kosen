@@ -1,0 +1,14 @@
+VCD info: dumpfile out/week13/full_adder.vcd opened for output.
+Time	A	B	Cin	Sum	Cout
+------------------------------------
+10	0	0	0	0	0
+20	0	0	1	1	0
+30	0	1	0	1	0
+40	0	1	1	0	1
+50	1	0	0	1	0
+60	1	0	1	0	1
+70	1	1	0	0	1
+80	1	1	1	1	1
+
+All test cases completed!
+./week13/tb/tb.sv:68: $finish called at 80 (1s)
